@@ -1,0 +1,87 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+    // outline: solid 1px grey; /*檢查用，繳交前需清掉*/
+}
+body {
+    font-family: Bruno Ace SC; /* 需更改 */
+    line-height: 1.5;
+    color: $primary;
+    background-color: $secondary;
+    & .light-theme{
+        color: $secondary;
+        background: $primary;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1 {
+    font-size: 8rem;
+    color: $maroon;
+}
+h2, .h2 {
+    font-size: 4rem;
+}
+.fs-1 {
+    font-size: 1.5rem;
+}
+h3, .h3 {
+    font-size: 1.25rem;
+}
+p, .p {
+    font-size: 1rem;
+}
+/* containers */
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.header-nav{
+    width: 39.506%;
+}
+
+// .banner-description, .about-card-box, .project-album-text{
+//     width: 39.75rem;
+// }
+// .introduction-description, .contact-icon-list{
+//     width: 32.875rem;
+// }
+// .about-card-box{
+//     height: 20.25rem;
+// }
+// .about-card{
+//     width: 19.125rem;
+//     height: 9.25rem;
+//     padding: 1rem;
+// }
+// .about-description{
+//     width: 32.875rem;
+// }
+// .project-title{
+//     width: 46.625rem;
+// }
+// .project-album-list{
+//     width: 53.5rem;
+// }
+// .project-album-description{
+//     height: 12.25rem;
+// }
+
+
+/* font */
+.text-end{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-dark{
+    color: $secondary;
+}

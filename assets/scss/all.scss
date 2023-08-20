@@ -1,5 +1,12 @@
+@import './abstracts/variables';
+@import './base/reset';
+@import './base/base';
+
+@import './utilities/utilities';
+
+/* layouts */
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
-
+/* 各頁面樣式 */ 
 @import './pages/index.scss';
