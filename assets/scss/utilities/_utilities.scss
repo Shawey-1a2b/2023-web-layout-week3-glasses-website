@@ -62,6 +62,19 @@
     width: 100%;
 }
 
+/* background */
+.bg-red{
+    color: $primary;
+    background: $secondary;
+}
+.bg-maroon{
+    color: $primary;
+    background: $maroon;
+}    
+.bg-pink{
+    color: $secondary;
+    background: $pink;
+}
 
 
 /* spacing */

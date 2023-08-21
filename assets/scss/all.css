@@ -61,14 +61,8 @@ table {
 }
 
 body {
-  font-family: Bruno Ace SC; /* 需更改 */
+  font-family: "Noto Sans TC", Roboto, sans-serif;
   line-height: 1.5;
-  color: #FFFFFF;
-  background-color: #AA0601;
-}
-body .light-theme {
-  color: #AA0601;
-  background: #FFFFFF;
 }
 
 img {
@@ -160,67 +154,7 @@ p, .p {
   flex-wrap: wrap;
 }
 
-/* spacing */
-.ms-auto {
-  margin-left: auto;
-}
-
-.mt-2_5 {
-  margin-top: 2.5rem;
-}
-
-.mb-0_25 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-1 {
-  margin-bottom: 1rem;
-}
-
-.mb-2_25 {
-  margin-bottom: 2.25rem;
-}
-
-.mb-2_5 {
-  margin-bottom: 2.5rem;
-}
-
-.me-1 {
-  margin-right: 1rem;
-}
-
-.my-2 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.my-4_5 {
-  margin-top: 4.5rem;
-  margin-bottom: 4.5rem;
-}
-
-.my-6 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
-
-.py-2_5 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-6 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.py-10 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
-/* layouts佈局 */
-/* Grid */
+/* grid */
 .col-1 {
   width: 8.33333%;
 }
@@ -269,7 +203,25 @@ p, .p {
   width: 100%;
 }
 
-.header img {
+/* background */
+.bg-red {
+  color: #FFFFFF;
+  background: #AA0601;
+}
+
+.bg-maroon {
+  color: #FFFFFF;
+  background: #650300;
+}
+
+.bg-pink {
+  color: #AA0601;
+  background: #FBF2F2;
+}
+
+/* spacing */
+/* layouts佈局 */
+.header-logo img {
   width: 80px;
   height: auto;
 }
@@ -279,7 +231,4 @@ p, .p {
   font-size: 64px;
 }
 
-/* 頁面樣式 */
-.index-title {
-  font-size: 100px;
-}/*# sourceMappingURL=all.css.map */
+/* 頁面樣式 *//*# sourceMappingURL=all.css.map */
