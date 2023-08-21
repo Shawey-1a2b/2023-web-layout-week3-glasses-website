@@ -1,12 +1,16 @@
+/* 載入外部字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Roboto:wght@500&display=swap');
+
+/* 變數及基礎 */
 @import './abstracts/variables';
 @import './base/reset';
 @import './base/base';
-
 @import './utilities/utilities';
 
-/* layouts */
+/* layouts佈局 */
+@import './layout/layout.scss';
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
-/* 各頁面樣式 */ 
+/* 頁面樣式 */ 
 @import './pages/index.scss';

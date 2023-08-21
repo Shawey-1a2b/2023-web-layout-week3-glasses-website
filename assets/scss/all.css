@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/* 載入外部字體 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Roboto:wght@500&display=swap");
+/* 變數及基礎 */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Bruno Ace SC; /* 需更改 */
+  line-height: 1.5;
+  color: #FFFFFF;
+  background-color: #AA0601;
+}
+body .light-theme {
+  color: #AA0601;
+  background: #FFFFFF;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 8rem;
+  color: #650300;
+}
+
+h2, .h2 {
+  font-size: 4rem;
+}
+
+.fs-1 {
+  font-size: 1.5rem;
+}
+
+h3, .h3 {
+  font-size: 1.25rem;
+}
+
+p, .p {
+  font-size: 1rem;
+}
+
+/* containers */
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  width: 39.506%;
+}
+
+/* font */
+.text-end {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-dark {
+  color: #AA0601;
+}
+
+/* flex */
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* spacing */
+.ms-auto {
+  margin-left: auto;
+}
+
+.mt-2_5 {
+  margin-top: 2.5rem;
+}
+
+.mb-0_25 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2_25 {
+  margin-bottom: 2.25rem;
+}
+
+.mb-2_5 {
+  margin-bottom: 2.5rem;
+}
+
+.me-1 {
+  margin-right: 1rem;
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-4_5 {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.my-6 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.py-2_5 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-10 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+/* layouts佈局 */
+/* Grid */
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.header img {
+  width: 80px;
+  height: auto;
+}
+
+.footer {
+  background: #69F0AE;
+  font-size: 64px;
+}
+
+/* 頁面樣式 */
+.index-title {
+  font-size: 100px;
+}/*# sourceMappingURL=all.css.map */

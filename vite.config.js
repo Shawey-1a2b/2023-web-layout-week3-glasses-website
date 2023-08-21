@@ -23,6 +23,9 @@ function moveOutputPlugin() {
 }
 
 export default defineConfig({
+  css: {
+    sourceMap: true
+  },
   // base 的寫法：
   // base: '/Repository 的名稱/'
   base: '/web-layout-training-vite/',
