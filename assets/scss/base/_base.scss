@@ -16,22 +16,26 @@ a {
     text-decoration: none;
     color: inherit;
 }
-h1 {
-    font-size: 8rem;
+h1, .h1 {
+    font-size: 64px;
     color: $maroon;
 }
 h2, .h2 {
-    font-size: 4rem;
-}
-.fs-1 {
-    font-size: 1.5rem;
+    font-size: 48px;
 }
 h3, .h3 {
-    font-size: 1.25rem;
+    font-size: 36px;
 }
-p, .p {
-    font-size: 1rem;
+.fs-14{
+    font-size: 14px;
 }
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+
 /* containers */
 .container{
     max-width: 1296px;
@@ -69,7 +73,7 @@ p, .p {
 // }
 
 
-/* font */
+/* text */
 .text-end{
     text-align: right;
 }
