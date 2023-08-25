@@ -1,16 +1,26 @@
 .header{
   &-logo{
     img{
-      width: 80px;
+      max-width: 100%;
       height: auto;
+      vertical-align: middle;
     }
   }
   &-nav{
     a{
-      padding: 100% 0;
+      padding: 10% 0;
       &:hover{
       background: $primary;
       color: $secondary;
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .header{
+    &-logo{
+      img{
+        width: 100%;
       }
     }
   }
