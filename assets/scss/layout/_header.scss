@@ -10,18 +10,15 @@
     a{
       padding: 10% 0;
       &:hover{
-      background: $primary;
-      color: $secondary;
+      color: $gold;
       }
     }
   }
 }
-@media(max-width: 767px){
-  .header{
-    &-logo{
-      img{
-        width: 100%;
-      }
-    }
+@media(max-width: 375px){
+  .header-nav{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
   }
 }
